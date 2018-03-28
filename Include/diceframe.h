@@ -13,6 +13,7 @@ namespace DDRoller
         void OnHello(wxCommandEvent& event);
         void OnExit(wxCommandEvent& event);
         void OnAbout(wxCommandEvent& event);
+        void OnSize(wxSizeEvent& event);
 
         wxDECLARE_EVENT_TABLE();
     public:

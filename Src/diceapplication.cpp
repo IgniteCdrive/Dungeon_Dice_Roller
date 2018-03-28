@@ -38,7 +38,7 @@ namespace DDRoller
 
     bool DiceApplication::OnInit()
     {
-        DiceFrame* frame = new DiceFrame( "Hello World", wxPoint(50, 50), wxSize(450, 340) );
+        DiceFrame* frame = new DiceFrame( "Charlotte's web is a web of lies.", wxPoint(50, 50), wxSize(800, 600) );
         frame->Show( true );
         return true;
     }
